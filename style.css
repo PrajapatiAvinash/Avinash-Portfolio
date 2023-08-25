@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 40);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(13, 13, 66);
+    width:100vw;
+}
+
+main hr {
+    height: 0.7px;
+    border-color: purple;
+    background-color: purple;
+    margin: 0px 50px;
+    /* margin:50px 50px 10px 50px; */
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(150, 155, 255);
+    font-size: 1.02rem;
+
+}
+
+.left {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.leftsection {
+    width: 30%;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 50px 0px;
+
+
+  
+}
+
+.leftsection .btn {
+    padding: 5px;
+    background-color: rgb(13, 13, 66);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.rightsection {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightsection .image img {
+    height: 50%;
+    margin-top: 100px;
+    border-radius: 5px solid white;
+
+
+
+}
+.image{
+    border: 25px solid lavender;
+    border-radius: 120px;
+    height: 40vh;
+    width: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple {
+    color: purple;
+    font-weight: bolder;
+}
+
+.secondSection {
+    max-width: 85vw;
+    margin: auto;
+    height:110vh;
+
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.text-gray {
+    color: gray;
+    font-size: 0.5rem;
+}
+
+#element {
+    color: purple;
+}
+
+.box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+
+.vertical {
+    height: 60px;
+    width: 2px;
+    background-color: white;
+    margin: 0px 200px;
+}
+
+.image_top {
+    width: 30px;
+    position: relative;
+    top: -50px;
+    left: -10px;
+}
+
+.vertical-title {
+    width: 205px;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+}
+
+.vertical-desc {
+    position: relative;
+    font-size: 12px;
+    top: 70px;
+    width: 100px;
+}
+
+footer {
+    
+    background-color: rgb(38 5 67);
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+.footer2 ul  {
+    list-style: none;
+}
+
+footer .textcenter {
+    padding:2px;
+    text-align: center;
+    color: white;
+
+   
+}
+.footer2 ul li a {
+    color:white;
+    font-style: normal;
+}
+
+.button {
+    margin-bottom: 24px;
+}
+
+/* Styles for About page */
+.About_section {
+    display: flex;
+    justify-content: space-around;
+    height: 160vh;
+
+
+}
+
+.Left {
+    height: 30%;
+
+}
+
+.Left .AboutDeveloper {
+    height: 60vh;
+    position: relative;
+    top: 100px;
+}
+
+.Right {
+    width: 40vw;
+    height: 60vh;
+    border: 3px solid #585893;
+    border-radius: 10px;
+    position: relative;
+    top: 135px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Right h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 30px 15px 0px 15px;
+}
+
+.Right hr {
+    margin: 15px;
+}
+
+.Right .description p {
+    margin: 15px 15px;
+
+}
+
+/* styles for project page */
+.project_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.project_section #element{
+    color:silver;
+}
+.project_line{
+    display: flex;
+    flex-direction: row;
+    margin:15px 15px;
+}
+.project img{
+height:250px;
+border: 2px solid lavender;
+width:100%;
+}
+.project h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+.project{
+    border: 3px solid lavender;
+    background-color: rgb(3, 3, 40);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:15px 15px;
+}
+.project button{
+background-color:rgb(13, 13, 66) ;
+color:white;
+height:35px;
+padding:5px 5px;
+border-radius: 5px;
+}
+ 
+/* styles for contact */
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 50vw;
+    border:3px solid lavender;
+    border-radius: 40px;
+    margin-bottom:100px;
+}
+
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_section h1 {
+    margin:15px 15px;
+}
+input{
+    height:25px;
+    width:80%;
+    margin:15px 0px;
+    border-radius: 3px;
+    border:3px solid rgb(124, 124, 223);
+    position: relative;
+    top:14px;
+    font-size:1.5 rem;
+    font-weight: bolder;
+   padding:5px;
+}
+textarea{
+    margin:25px 0px;
+    border-radius: 3px;
+    border:3px solid rgb(124, 124, 223);
+    width:80%;
+    height:40%;
+    padding:5px;
+}
+form{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    border: 3px solid lavender;
+    
+}
+form .btn{
+    height:40px;
+    width:80px;
+    background-color:rgb(3, 3, 40); 
+    color: white;
+    border:2px solid lavender;
+    border-radius: 3px;
+margin:10px 0px;
+cursor: pointer;
+}

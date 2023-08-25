@@ -1,0 +1,19 @@
+About_section{
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    background-color: red;
+
+}
+section1{
+    height: 30%;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 100px 0px;
+    
+}
+
+section2{
+    background-color: red;
+    height: 65vh;
+}
